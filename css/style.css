@@ -69,15 +69,15 @@ a {
   color: white;
   background-color: #2f1ce4;
   border: 3px solid;
-  border-color: #fff;
+  border-color: #2f1ce4;
   display: inline-block;
+  margin: 10px;
 }
 
 .link-in {
   padding: 20px;
   color: #fff;
   background-color: transparent;
-  margin: 10px;
   border: 3px solid;
   border-color: white;
   display: inline-block;
@@ -94,7 +94,6 @@ a {
 .link-back {
   margin-left: 10px;
   padding-left: 25px;
-  background-color: yellow;
   background-image: url(../img/return.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -112,21 +111,18 @@ h2 {
   margin-top: 100px;
   size: 36px;
   margin-bottom: 25px;
-  color: #3d2bdd;
+  color: #2f1ce4;
+}
+
+a {
+  color: -webkit-link;
+  text-decoration-line: underline;
+
 }
 
 .list {
   padding-left: 200px;
   size: 18px;
-}
-
-li {
-  list-style-type: none;
-}
-li::before {
-  color: blue;
-  content: "-";
-  padding-right: 10px;
 }
 
 p {
@@ -141,8 +137,20 @@ figure {
   text-align: center;
 }
 
-/*figcaption {
-  position: relative;
-
+img {
+  max-width: 400px;
 }
 
+.blue {
+  color: blue;
+}
+
+span {
+  color: #222020;
+}
+
+table {
+  margin-top: 100px;
+  border: 1px solid #a0a0a0;
+  border-collapse: collapse;
+}
