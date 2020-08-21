@@ -200,7 +200,6 @@ code {
   display: inline-block;
   width: 480px;
   min-height: 500px;
-  order: 1px solid #000;
   margin-top: 50px;
   vertical-align: middle;
   position: relative;
