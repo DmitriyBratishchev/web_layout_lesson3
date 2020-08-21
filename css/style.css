@@ -94,9 +94,20 @@ a {
 .link-back {
   margin-left: 10px;
   padding-left: 25px;
-  background-image: url(../img/return.png);
+  background-image: url(../img/return-L.png);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.link-forward {
+  position: relative;
+  margin-left: 10px;
+  padding-left: 985px;
+  padding-right: 25px;
+  background-image: url(../img/return-R.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 h1 {
@@ -173,4 +184,106 @@ thead {
 
 code {
   font-family: "Gilroy", sans-serif;
+}
+
+.modules {
+  width: 1180px;
+}
+
+.logotip {
+  padding-left: 7px;
+  padding-bottom: 50px;
+  font-size: 35px;
+}
+
+.unit {
+  display: inline-block;
+  width: 480px;
+  min-height: 500px;
+  order: 1px solid #000;
+  margin-top: 50px;
+  vertical-align: middle;
+  position: relative;
+  background-color: #e8e8e8;
+  background-repeat: no-repeat;
+  box-shadow: 2px -1px 5px 5px #e8e8e8;
+}
+
+.left {
+  margin-left: 80px;
+}
+
+.right {
+  margin-left: 60px;
+}
+
+.fond {
+  margin-top: 180px;
+  background-color: #fff;
+  min-height: 320px;
+}
+
+.foto1 {
+  background-image: url(../img/modules/poto-1.jpg);
+}
+
+.foto2 {
+  background-image: url(../img/modules/poto-2.jpg);
+}
+
+.foto3 {
+  background-image: url(../img/modules/poto-3.jpg);
+}
+
+.foto4 {
+  background-image: url(../img/modules/poto-4.jpg);
+}
+
+h3 {
+  font-size: 35px;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #2f1ce4;
+}
+
+.hendout {
+  padding-left: 50px;
+  list-style: none;
+}
+
+.number {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  font-size: 36px;
+  opacity: .25;
+}
+
+/*.parent {
+  width: 1170px; /* для примера */
+/*  margin: 0 auto;*/
+/*} */
+
+.btn {
+  margin-top: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 85px;
+  padding-right: 85px;
+  color: #2f1ce4;
+  border: 3px solid #2f1ce4;
+  border-radius: 2px;
+  margin-bottom: 620px;
+}
+
+.center {
+  text-align: center;
+}
+
+#wave {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/modules/wave.svg);
 }
